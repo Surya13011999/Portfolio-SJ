@@ -202,7 +202,7 @@ button:hover{
   width: 335px;
   padding: 20px 35px;
   background: #191919;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 15px;
   position: relative;
   overflow:hidden;
@@ -211,19 +211,21 @@ button:hover{
 h5{
   color: white;
   font-size: 23px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
 }
 
 .des p{
   color: #fcfc;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 1.6;
+  max-height: 200px;
+  overflow-y: auto;
   margin-bottom: 25px;
 
 }
 
-/* .card .button
+.card .button
 {
   background-color: #ea1538 ;
   color: white;
@@ -242,7 +244,7 @@ h5{
   background-color: transparent;
   border: 2px solid #ea1538 ;
   cursor: pointer
-} */
+}
 
 
 .contact-me{
@@ -276,7 +278,7 @@ footer{
 }
 
 p{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
@@ -328,3 +330,13 @@ p{
   font-size: 14px;
 
 }
+
+/* .visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.about, .projects, footer {
+  opacity: 0;
+  transform: translateY(20px);
+} */
